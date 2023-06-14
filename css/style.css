@@ -20,6 +20,9 @@
     visibility: visible;
     opacity: 1;
 }
+.bg-primary {
+    background-color: #000 !important;
+}
 
 .back-to-top {
     position: fixed;
@@ -27,6 +30,9 @@
     right: 45px;
     bottom: 45px;
     z-index: 99;
+}
+.text-md-end {
+    text-align: left !important;
 }
 
 
@@ -67,6 +73,10 @@ h6,
     height: 48px;
 }
 
+.text-primary {
+    color: #000 !important;
+}
+
 .btn-square,
 .btn-sm-square,
 .btn-lg-square {
@@ -78,11 +88,26 @@ h6,
     border-radius: 50px;
 }
 
+.btn-outline-primary {
+    color: #000;
+    border-color: #000;
+}
+
 
 /*** Navbar ***/
 .sticky-top {
     top: -150px;
     transition: .5s;
+}
+.btn-outline-primary {
+    color: #000;
+    border-color: #000;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #000000;
+    border-color: #000;
 }
 
 .navbar {
@@ -528,6 +553,10 @@ h6,
 
 .footer .copyright a:hover {
     color: #FFFFFF;
+}
+
+.text-primary {
+    color: #14183e !important;
 }
 
 .footer .footer-menu a {
